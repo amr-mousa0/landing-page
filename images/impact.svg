@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 120" width="100%" height="100%" role="img" aria-label="Metrics: 2+ Years Experience, 15+ Projects Delivered, 5+ Interactive Dashboards Published">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B0F19" />
+      <stop offset="100%" stop-color="#111827" />
+    </linearGradient>
+
+    <!-- Border Accent Gradient -->
+    <linearGradient id="border-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#004D61" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#822659" stop-opacity="0.3" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="880" height="120" rx="12" fill="url(#bg-grad)" />
+  <rect x="1" y="1" width="878" height="118" rx="11" fill="none" stroke="url(#border-grad)" stroke-width="1.5" />
+
+  <!-- Column Dividers -->
+  <line x1="293.3" y1="20" x2="293.3" y2="100" stroke="rgba(255, 255, 255, 0.08)" stroke-width="1" />
+  <line x1="586.6" y1="20" x2="586.6" y2="100" stroke="rgba(255, 255, 255, 0.08)" stroke-width="1" />
+
+  <!-- Column 1: Years of Experience -->
+  <g transform="translate(146.6, 0)">
+    <text x="0" y="55" font-family="'Inter', 'Segoe UI', system-ui, sans-serif" font-size="36" font-weight="900" fill="#008EA6" text-anchor="middle">2+</text>
+    <text x="0" y="82" font-family="'Inter', 'Segoe UI', system-ui, sans-serif" font-size="14" font-weight="700" fill="#F0F0F0" text-anchor="middle" letter-spacing="0.03em">YEARS EXPERIENCE</text>
+    <text x="0" y="99" font-family="'Inter', 'Segoe UI', system-ui, sans-serif" font-size="11" font-weight="500" fill="#9CA3AF" text-anchor="middle">F&amp;B, Fitness, &amp; Media Buying</text>
+  </g>
+
+  <!-- Column 2: Projects Delivered -->
+  <g transform="translate(440, 0)">
+    <text x="0" y="55" font-family="'Inter', 'Segoe UI', system-ui, sans-serif" font-size="36" font-weight="900" fill="#008EA6" text-anchor="middle">15+</text>
+    <text x="0" y="82" font-family="'Inter', 'Segoe UI', system-ui, sans-serif" font-size="14" font-weight="700" fill="#F0F0F0" text-anchor="middle" letter-spacing="0.03em">PROJECTS DELIVERED</text>
+    <text x="0" y="99" font-family="'Inter', 'Segoe UI', system-ui, sans-serif" font-size="11" font-weight="500" fill="#9CA3AF" text-anchor="middle">SQL Models, ETL, &amp; Marketing</text>
+  </g>
+
+  <!-- Column 3: Published Dashboards -->
+  <g transform="translate(733.3, 0)">
+    <text x="0" y="55" font-family="'Inter', 'Segoe UI', system-ui, sans-serif" font-size="36" font-weight="900" fill="#822659" text-anchor="middle">5+</text>
+    <text x="0" y="82" font-family="'Inter', 'Segoe UI', system-ui, sans-serif" font-size="14" font-weight="700" fill="#F0F0F0" text-anchor="middle" letter-spacing="0.03em">INTERACTIVE DASHBOARDS</text>
+    <text x="0" y="99" font-family="'Inter', 'Segoe UI', system-ui, sans-serif" font-size="11" font-weight="500" fill="#9CA3AF" text-anchor="middle">Live Power BI Executive Reports</text>
+  </g>
+</svg>

@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 120" width="100%" height="100%" role="img" aria-label="Key Milestones: 93K EGP Revenue Recovered, +250% ROI Growth Delivered, 30+ Campaign Assets Produced">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B0F19" />
+      <stop offset="100%" stop-color="#111827" />
+    </linearGradient>
+
+    <!-- Border Accent Gradient -->
+    <linearGradient id="border-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#004D61" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#822659" stop-opacity="0.3" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="880" height="120" rx="12" fill="url(#bg-grad)" />
+  <rect x="1" y="1" width="878" height="118" rx="11" fill="none" stroke="url(#border-grad)" stroke-width="1.5" />
+
+  <!-- Column Dividers -->
+  <line x1="293.3" y1="20" x2="293.3" y2="100" stroke="rgba(255, 255, 255, 0.08)" stroke-width="1" />
+  <line x1="586.6" y1="20" x2="586.6" y2="100" stroke="rgba(255, 255, 255, 0.08)" stroke-width="1" />
+
+  <!-- Column 1: Revenue Recovered -->
+  <g transform="translate(146.6, 0)">
+    <text x="0" y="55" font-family="'Inter', 'Segoe UI', system-ui, sans-serif" font-size="34" font-weight="900" fill="#008EA6" text-anchor="middle">93K EGP</text>
+    <text x="0" y="82" font-family="'Inter', 'Segoe UI', system-ui, sans-serif" font-size="14" font-weight="700" fill="#F0F0F0" text-anchor="middle" letter-spacing="0.03em">REVENUE RECOVERED</text>
+    <text x="0" y="99" font-family="'Inter', 'Segoe UI', system-ui, sans-serif" font-size="11" font-weight="500" fill="#9CA3AF" text-anchor="middle">Oxygen Gym Billing Leakages</text>
+  </g>
+
+  <!-- Column 2: ROI Growth -->
+  <g transform="translate(440, 0)">
+    <text x="0" y="55" font-family="'Inter', 'Segoe UI', system-ui, sans-serif" font-size="34" font-weight="900" fill="#008EA6" text-anchor="middle">+250%</text>
+    <text x="0" y="82" font-family="'Inter', 'Segoe UI', system-ui, sans-serif" font-size="14" font-weight="700" fill="#F0F0F0" text-anchor="middle" letter-spacing="0.03em">ROI GROWTH DELIVERED</text>
+    <text x="0" y="99" font-family="'Inter', 'Segoe UI', system-ui, sans-serif" font-size="11" font-weight="500" fill="#9CA3AF" text-anchor="middle">So Care Ads Optimization</text>
+  </g>
+
+  <!-- Column 3: Campaign Assets -->
+  <g transform="translate(733.3, 0)">
+    <text x="0" y="55" font-family="'Inter', 'Segoe UI', system-ui, sans-serif" font-size="34" font-weight="900" fill="#822659" text-anchor="middle">30+</text>
+    <text x="0" y="82" font-family="'Inter', 'Segoe UI', system-ui, sans-serif" font-size="14" font-weight="700" fill="#F0F0F0" text-anchor="middle" letter-spacing="0.03em">CAMPAIGN CREATIVES</text>
+    <text x="0" y="99" font-family="'Inter', 'Segoe UI', system-ui, sans-serif" font-size="11" font-weight="500" fill="#9CA3AF" text-anchor="middle">Custom Designs &amp; Reel Hooks</text>
+  </g>
+</svg>

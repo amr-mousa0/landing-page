@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 130" width="100%" height="100%" role="img" aria-label="Process Workflow: Understand (Business Context) ➔ Measure (KPIs &amp; Baselines) ➔ Analyze (Root Cause Insights) ➔ Recommend (Actionable Growth Plans) ➔ Optimize (Continuous Scale)">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B0F19" />
+      <stop offset="100%" stop-color="#111827" />
+    </linearGradient>
+
+    <!-- Border Accent Gradient -->
+    <linearGradient id="border-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#004D61" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#822659" stop-opacity="0.3" />
+    </linearGradient>
+
+    <!-- Arrow Marker Definition -->
+    <marker id="arrow" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M 0 1.5 L 7 5 L 0 8.5 z" fill="#008EA6" />
+    </marker>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="880" height="130" rx="12" fill="url(#bg-grad)" />
+  <rect x="1" y="1" width="878" height="128" rx="11" fill="none" stroke="url(#border-grad)" stroke-width="1.5" />
+
+  <!-- Flow Lines -->
+  <line x1="105" y1="45" x2="230" y2="45" stroke="rgba(255, 255, 255, 0.1)" stroke-width="2" marker-end="url(#arrow)" />
+  <line x1="285" y1="45" x2="410" y2="45" stroke="rgba(255, 255, 255, 0.1)" stroke-width="2" marker-end="url(#arrow)" />
+  <line x1="465" y1="45" x2="590" y2="45" stroke="rgba(255, 255, 255, 0.1)" stroke-width="2" marker-end="url(#arrow)" />
+  <line x1="645" y1="45" x2="770" y2="45" stroke="rgba(255, 255, 255, 0.1)" stroke-width="2" marker-end="url(#arrow)" />
+
+  <!-- Step 1: Understand -->
+  <g transform="translate(80, 0)">
+    <circle cx="0" cy="45" r="22" fill="#1E2A3A" stroke="#004D61" stroke-width="2" />
+    <text x="0" y="50" font-family="'Inter', 'Segoe UI', system-ui, sans-serif" font-size="14" font-weight="900" fill="#008EA6" text-anchor="middle">1</text>
+    <text x="0" y="88" font-family="'Inter', 'Segoe UI', system-ui, sans-serif" font-size="12" font-weight="700" fill="#F0F0F0" text-anchor="middle">UNDERSTAND</text>
+    <text x="0" y="104" font-family="'Inter', 'Segoe UI', system-ui, sans-serif" font-size="10" font-weight="500" fill="#9CA3AF" text-anchor="middle">Business Context</text>
+  </g>
+
+  <!-- Step 2: Measure -->
+  <g transform="translate(260, 0)">
+    <circle cx="0" cy="45" r="22" fill="#1E2A3A" stroke="#004D61" stroke-width="2" />
+    <text x="0" y="50" font-family="'Inter', 'Segoe UI', system-ui, sans-serif" font-size="14" font-weight="900" fill="#008EA6" text-anchor="middle">2</text>
+    <text x="0" y="88" font-family="'Inter', 'Segoe UI', system-ui, sans-serif" font-size="12" font-weight="700" fill="#F0F0F0" text-anchor="middle">MEASURE</text>
+    <text x="0" y="104" font-family="'Inter', 'Segoe UI', system-ui, sans-serif" font-size="10" font-weight="500" fill="#9CA3AF" text-anchor="middle">KPIs &amp; Baselines</text>
+  </g>
+
+  <!-- Step 3: Analyze -->
+  <g transform="translate(440, 0)">
+    <circle cx="0" cy="45" r="22" fill="#1E2A3A" stroke="#822659" stroke-width="2" />
+    <text x="0" y="50" font-family="'Inter', 'Segoe UI', system-ui, sans-serif" font-size="14" font-weight="900" fill="#822659" text-anchor="middle">3</text>
+    <text x="0" y="88" font-family="'Inter', 'Segoe UI', system-ui, sans-serif" font-size="12" font-weight="700" fill="#F0F0F0" text-anchor="middle">ANALYZE</text>
+    <text x="0" y="104" font-family="'Inter', 'Segoe UI', system-ui, sans-serif" font-size="10" font-weight="500" fill="#9CA3AF" text-anchor="middle">Root Cause Insights</text>
+  </g>
+
+  <!-- Step 4: Recommend -->
+  <g transform="translate(620, 0)">
+    <circle cx="0" cy="45" r="22" fill="#1E2A3A" stroke="#822659" stroke-width="2" />
+    <text x="0" y="50" font-family="'Inter', 'Segoe UI', system-ui, sans-serif" font-size="14" font-weight="900" fill="#822659" text-anchor="middle">4</text>
+    <text x="0" y="88" font-family="'Inter', 'Segoe UI', system-ui, sans-serif" font-size="12" font-weight="700" fill="#F0F0F0" text-anchor="middle">RECOMMEND</text>
+    <text x="0" y="104" font-family="'Inter', 'Segoe UI', system-ui, sans-serif" font-size="10" font-weight="500" fill="#9CA3AF" text-anchor="middle">Actionable Growth</text>
+  </g>
+
+  <!-- Step 5: Optimize -->
+  <g transform="translate(800, 0)">
+    <circle cx="0" cy="45" r="22" fill="#1E2A3A" stroke="#10B981" stroke-width="2" />
+    <text x="0" y="50" font-family="'Inter', 'Segoe UI', system-ui, sans-serif" font-size="14" font-weight="900" fill="#10B981" text-anchor="middle">5</text>
+    <text x="0" y="88" font-family="'Inter', 'Segoe UI', system-ui, sans-serif" font-size="12" font-weight="700" fill="#F0F0F0" text-anchor="middle">OPTIMIZE</text>
+    <text x="0" y="104" font-family="'Inter', 'Segoe UI', system-ui, sans-serif" font-size="10" font-weight="500" fill="#9CA3AF" text-anchor="middle">Continuous Scale</text>
+  </g>
+</svg>
